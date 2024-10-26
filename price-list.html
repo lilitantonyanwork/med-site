@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--- Start header --->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#"><img src="images/logo.svg" alt="logo">
+
+                <p class="d-flex flex-column"> <span >Гальченко</span>
+                    Евгения Владимировна
+                </p>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="price-list.html">Цены и услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="webinar.html">Авторские вебинары</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="appointment.html">Запись на приём</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+                <a href="tel:+7 3952 65 20 36" class="header-phone d-flex align-items-center justify-content-center text-decoration-none"><img src="images/phone-icon.svg" alt="">+7 3952 65 20 36</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--- End header --->
+
+<!--- Start Price List Page content --->
+<main class="price-page">
+    <!--- Start price section ---->
+    <section class="price-list">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between align-items-center">
+                    <h1>Цены и услуги</h1>
+                    <div class="action-btns d-flex align-items-center">
+                        <button class="btn btn-primary">Узи</button>
+                        <button class="btn btn-primary-opacity">Приём</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 price d-flex justify-content-between align-items-center  ">
+                    <h2 class="price-title">Прием (осмотр, консультация) врача-акушера-гинеколога первичный</h2>
+                    <div class="price-info d-flex align-items-center">
+                        <div class="price-img">
+                            <img src="images/question.svg" alt="q">
+                        </div>
+                        <div class="price-value">1600 руб.</div>
+                        <button class="btn btn-outline-primary">Записаться</button>
+                    </div>
+                </div>
+                <div class="col-12 price d-flex justify-content-between align-items-center  ">
+                    <h2 class="price-title">Прием (осмотр, консультация) врача-акушера-гинеколога первичный</h2>
+                    <div class="price-info d-flex align-items-center">
+                        <div class="price-img">
+                            <img src="images/question.svg" alt="q">
+                        </div>
+                        <div class="price-value">1600 руб.</div>
+                        <button class="btn btn-outline-primary">Записаться</button>
+                    </div>
+                </div>
+                <div class="col-12 price d-flex justify-content-between align-items-center  ">
+                    <h2 class="price-title">Прием (осмотр, консультация) врача-акушера-гинеколога первичный</h2>
+                    <div class="price-info d-flex align-items-center">
+                        <div class="price-img">
+                            <img src="images/question.svg" alt="q">
+                        </div>
+                        <div class="price-value">1600 руб.</div>
+                        <button class="btn btn-outline-primary">Записаться</button>
+                    </div>
+                </div>
+                <div class="col-12 price d-flex justify-content-between align-items-center  ">
+                    <h2 class="price-title fw">Повторный прием врача гинеколога (прием считается повторным в течении 60-ти суток с момента первичного обращения к врачу)</h2>
+                    <div class="price-info d-flex align-items-center">
+                        <div class="price-img">
+                            <img src="images/question.svg" alt="q">
+                        </div>
+                        <div class="price-value">1600 руб.</div>
+                        <button class="btn btn-outline-primary">Записаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- End price section ---->
+</main>
+<!--- End Price List Page content --->
+
+<!--- Start footer --->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <form class="row g-3">
+                    <div class="col-12  m-0">
+                        <h4>Остались вопросы?</h4>
+                    </div>
+                    <div class="col-12 m-0">
+                        <input type="text" class="form-control" id="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="col-12 m-0">
+                        <input type="tel" class="form-control" id="phone" placeholder="Телефон">
+                    </div>
+                    <div class="col-12 m-0 position-relative">
+                        <textarea name="text" id="text" placeholder="Сообщение" class="w-100"></textarea>
+                        <span class="pull-right label label-default" id="count_message"></span>
+                    </div>
+
+                    <div class="col-12 m-0">
+                        <button type="submit" class="btn btn-primary disabled">Отправить</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-8"></div>
+        </div>
+    </div>
+</footer>
+<!--- End footer --->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
