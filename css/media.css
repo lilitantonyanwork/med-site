@@ -1,0 +1,822 @@
+@media screen and (max-width: 1800px){
+    .time-item{
+        width: calc(100%/2 - 15px);
+    }
+}
+@media screen and (max-width: 1700px) {
+    header .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 16px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        gap: 10px;
+    }
+    .navbar{
+        padding-right: 24px;
+    }
+    .banner{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .banner img{
+        max-width: 48%;
+    }
+    .banner-items{
+        width: 100%;
+        max-width: 900px;
+        overflow: auto;
+    }
+    .banner-item{
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 340px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .banner-items{
+        max-width: 800px;
+    }
+    .banner{
+        padding-top: 60px;
+    }
+    .banner-title, .webinar-page h1, .appointment h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .appointment,
+    .webinar-page{
+        padding-top: 60px;
+    }
+    .app-title{
+        padding-top: 60px;
+        font-size: 60px;
+        line-height: 60px;
+
+    }
+    .app-text{
+        margin-bottom: 100px;
+    }
+    .about-content h1, .about-page h2{
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: auto;
+    }
+    .about-content{
+        min-height: unset;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-content h4{
+        margin-bottom: 100px;
+
+    }
+    .about img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+    .about-item{
+        padding: 40px;
+        margin-bottom: 30px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .faq h1, .price-list h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .faq .accordion-button{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    footer form{
+        padding: 40px;
+    }
+    .navbar-brand p{
+        font-size: 15px;
+    }
+    .about-content p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .header-phone{
+        font-size: 14px;
+        padding: 15px;
+    }
+    .price-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .price{
+        padding: 40px;
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+    .price-list .action-btns .btn{
+        padding: 15px 30px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .price-value{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .price-list{
+        padding-top: 60px;
+    }
+    .webinar-img{
+        max-width: 50%;
+    }
+    .webinar-content{
+        max-width: 50%;
+    }
+    .webinar-item{
+        padding: 40px;
+    }
+    .time-item {
+        width: 100%;
+    }
+    .appointment{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .app-content img {
+        height: auto;
+    }
+    .banner-title, .app-title, .about-content h1,
+    .faq h1, .about-page h2, .price-list h1, .webinar-page h1,.appointment h1{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .banner img {
+        max-width: 41%;
+    }
+    .btn-primary, .btn-outline-primary  {
+        font-size: 18px;
+        line-height: 18px;
+        width: 300px;
+        padding: 20px 30px;
+        font-weight: 400;
+    }
+    .about-content h4{
+        margin-bottom: 60px;
+    }
+    .about-item{
+        width: calc(100%/2 - 30px);
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    .about-list{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .carousel-item{
+        height: 600px;
+    }
+    .faq{
+        padding-top: 60px;
+    }
+    .accordion-body{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .accordion-item{
+        padding: 40px;
+    }
+    footer form h4{
+        font-size: 24px;
+    }
+    footer form{
+        padding: 30px 20px;
+    }
+    footer form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+    footer form textarea{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .navbar-brand img{
+        width: 60px;
+    }
+    .navbar-brand p{
+        font-size: 12px;
+    }
+    .navbar-brand span{
+        font-size: 20px;
+    }
+    .about-page .about-content p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .navbar {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .price-info .btn-outline-primary{
+        width: 200px;
+    }
+    .webinar-price{
+        font-size: 18px;
+        line-height: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .webinar-actions .btn-outline-primary{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .webinar-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .webinar-icon img{
+        width: 10px;
+    }
+    .webinar-text{
+        padding-right: 0;
+    }
+    .webinar-item{
+        height: auto;
+    }
+    .webinar-page{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .appointment-form{
+        padding: 30px;
+    }
+    .appointment-form .form-col{
+        width: 100%;
+    }
+    .appointment-time{
+        padding: 30px;
+    }
+    .appointment-form h2, .datepicker-switch{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .contact-info{
+        max-width: 360px;
+        padding: 30px;
+    }
+    .contact-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .contact-info p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .appointment-left{
+        max-width: 100%;
+        height: auto;
+    }
+    .appointment-right{
+        max-width: 100%;
+        height:auto;
+    }
+    .appointment-block{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 990px) {
+    .navbar-toggler{
+        background: linear-gradient(132.8deg, #BA86F3 -27.59%, #8F6AF5 124.66%);
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        padding: 0;
+    }
+    .navbar-toggler-icon{
+        background: url('../images/mobile-menu.svg') no-repeat center;
+    }
+    header .btn-primary{
+        display: block;
+        max-width: 330px;
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link.active, header .navbar-expand-lg .navbar-nav .nav-link:hover{
+        border: none;
+
+    }
+    .navbar-nav{
+        margin-top: 40px;
+        gap: 25px;
+        margin-bottom: 140px!important;
+    }
+    .header-phone{
+        max-width: 330px;
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .navbar-collapse{
+        background: url('../images/mobile-bg.svg') no-repeat;
+        background-position: right 83%;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .banner-title, .app-title, .about-content h1, .faq h1, .about-content h2, .price-list h1,
+    .webinar-page h1, .appointment h1{
+        font-size: 32px ;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .price-title{
+        font-weight: 400 ;
+    }
+    .banner-text{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .banner-item p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .banner-item{
+        height: 141px;
+        min-height: unset;
+        padding: 15px;
+    }
+    .banner-icon{
+        width: 24px;
+        height: 24px;
+        background-size: 100% 100%;
+        margin-bottom: 15px;
+        background-repeat: no-repeat;
+    }
+    .banner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .price-list{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+    .banner-item{
+        flex: 0 0 200px;
+    }
+    .app {
+        padding: 60px 30px 0;
+    }
+
+    .app-content{
+        padding-left: 30px;
+    }
+    .app-title{
+        padding-top: 30px;
+    }
+    .action-btns{
+        margin-bottom: 0;
+    }
+    .app-text{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .about{
+        padding: 30px;
+    }
+    .about-content{
+        padding: 30px;
+    }
+    .carousel-item {
+        height: 400px;
+    }
+    .faq{
+        padding: 30px;
+    }
+    .faq .accordion-button{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .accordion-item {
+        padding: 30px;
+    }
+    footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner-items {
+        max-width: 500px;
+    }
+    .price{
+        flex-wrap: wrap;
+    }
+    .price-title{
+        max-width: 100%;
+    }
+    .price-list h1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .price-list .action-btns{
+        margin-bottom: 30px;
+    }
+    .webinar-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .webinar-item{
+        flex-wrap: wrap;
+    }
+    .webinar-img, .webinar-content{
+        max-width: 100%;
+    }
+    .webinar-text{
+        font-size: 16px;
+        line-height: 20px;
+        color: #968EA4;
+    }
+    .datepicker-switch, .datepicker .prev, .datepicker .next{
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 15px;
+
+    }
+    .datepicker th.dow{
+        font-size: 11px;
+        line-height: 11px;
+        width: 38px;
+
+    }
+    .datepicker td.day{
+        width: 38px;
+        height: 38px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .datepicker table{
+        border-spacing: 7px;
+    }
+    .appointment-photo{
+        display: none;
+    }
+    .appointment-title{
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    .appointment-left{
+        background: transparent;
+    }
+    .time-item, .appointment-select{
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 767px){
+    .banner img {
+        position: relative;
+        max-width: 369px;
+        right: auto;
+    }
+    .banner{
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    .banner .btn-primary {
+        margin-bottom: 15px;
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+    }
+    .banner-items{
+        position: absolute;
+        right: 0;
+        bottom: 370px;
+        max-width: unset;
+        justify-content: flex-end;
+    }
+    .banner-text{
+        margin-bottom: 180px;
+    }
+    .app-content img{
+        width: 360px;
+        margin: 0 auto;
+    }
+    .card-title{
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .about-item{
+        padding: 30px;
+        width: 100%;
+    }
+    .about-content{
+        margin-top: 30px;
+        background: none;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .about-content h4{
+        display: none;
+    }
+
+    .about-content h1{
+        margin-top: 0;
+    }
+    .about-content p{
+        font-size: 16px ;
+        line-height: 20px;
+    }
+    footer form{
+        padding: 0;
+        background: transparent;
+    }
+    footer form .form-control, footer form textarea{
+        background: #FBFBFB;
+        padding: 30px;
+    }
+    .about-page .about-content{
+        height: auto;
+    }
+    .about-page .about img{
+        height: auto;
+        object-fit: contain;
+    }
+    .about-row{
+        gap: 30px;
+    }
+    .about-row .carousel{
+        height: 400px;
+    }
+    .about-page .about .carousel img {
+        height: 400px;
+        object-fit: unset;
+    }
+    .about-page .about-content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #map{
+        margin-top: 30px;
+        height: 400px;
+    }
+    .contact-info{
+        position: relative;
+        padding-bottom: 0;
+    }
+    .contact-title {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .contact-info p{
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+}
+@media screen and (max-width: 660px) {
+    .banner-items{
+        max-width: 400px;
+        justify-content: flex-start;
+        overflow: auto;
+
+    }
+    .navbar-brand{
+        display: none!important;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        z-index: 1;
+    }
+    .navbar-collapse{
+        padding-top: 15px;
+    }
+    .navbar-collapse   .navbar-brand{
+        display: flex!important;
+    }
+    .navbar-brand span {
+        font-size: 18px;
+    }
+    .navbar-brand img {
+        width: 76px;
+    }
+
+    .app-content{
+        background: transparent;
+        padding: 0;
+    }
+    .banner{
+        background: transparent;
+        padding-left: 18px;
+    }
+    .about{
+        padding: 15px 3px;
+    }
+
+    .price-list{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .carousel-item{
+        height: 330px;
+    }
+    .faq{
+        padding: 45px 3px 15px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner .btn-primary{
+        width: 330px;
+    }
+    .app-title {
+        padding-top:0
+    }
+    .app{
+        border-bottom: 1px solid #EFEFEF
+    }
+    .price-info .btn-outline-primary{
+        width: 100%;
+    }
+    .price-info{
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+    }
+    .price{
+        padding: 30px;
+    }
+    .price-value{
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .price-img{
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        right: 15px;
+        top: 15px;
+        background: transparent;
+    }
+    .price-img img{
+        width: 10px;
+
+    }
+    .price-title{
+        margin-bottom: 30px;
+    }
+    .price-list .action-btns .btn{
+        width: 142px;
+    }
+    .price-inner-title{
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    .price-inner p{
+        font-size: 16px;
+        line-height: 20px;
+        color: #968EA4;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+    .price-actions{
+       flex-direction: column-reverse;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .price-inner .btn-primary{
+        width: 100%;
+    }
+    .btn-dark{
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+.price-inner{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.price-content .price-inner-title{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.webinar-actions{
+    flex-wrap: wrap;
+    position: relative;
+}
+    .webinar-price{
+        width: 100%;
+        text-align: center;
+    }
+    .webinar-actions .btn-outline-primary{
+        width: 100%;
+    }
+    .webinar-icon{
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        right: 15px;
+        top: 15px;
+        background: transparent;
+    }
+    .webinar-page{
+        padding-top: 30px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .webinar-item{
+        padding: 0;
+        background: transparent;
+        gap: 10px;
+    }
+    .webinar-content{
+        border-radius: 40px;
+        background: #FBFBFB;
+        padding: 30px;
+    }
+    .appointment-time{
+        padding: 0;
+        background: transparent;
+    }
+    .appointment{
+        padding-top: 30px;
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 60px;
+    }
+    .appointment-form{
+        background: transparent;
+        padding: 0;
+    }
+    .appointment-form .form-control{
+        background: #FBFBFB;
+    }
+    .back{
+        display: none;
+    }
+    .appointment-form h2{
+        display: none;
+    }
+    footer{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+@media screen and (max-width: 480px){
+    .banner-items{
+        max-width: 340px;
+    }
+    .about-page .about-content{
+        margin-top: 0;
+    }
+    .about-page .about{
+        padding-top: 30px;
+    }
+    .about-page .about .carousel img{
+        height: 192px;
+        border-radius: 0;
+    }
+    .about-row .carousel {
+        height: 192px;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        width: 32px;
+        height: 32px;
+    }
+    .carousel-control-prev{
+        left: 15px;
+    }
+    .carousel-control-next{
+        right: 15px;
+    }
+}

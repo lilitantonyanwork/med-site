@@ -39,7 +39,9 @@ body{
     line-height: 24px;
     font-weight: 500;
     border-radius: 20px;
+    border: none;
 }
+
 .btn-outline-primary{
     border: 1px solid  #BA86F3 ;
     color: #8F6AF5;
@@ -132,6 +134,13 @@ header .navbar-expand-lg .navbar-nav .nav-link.active, header .navbar-expand-lg 
     background: #FBFBFB;
     border-radius: 10px;
     padding: 15px 30px;
+    white-space: nowrap;
+}
+header .btn-primary{
+    display: none;
+}
+.navbar-collapse .navbar-brand{
+    display: none!important;
 }
 /*---- Banner Css ----*/
 .banner{
@@ -175,7 +184,7 @@ header .navbar-expand-lg .navbar-nav .nav-link.active, header .navbar-expand-lg 
     height: 100%;
     min-height: 250px;
     max-width: 340px;
-    width: 100%;
+    width: 340px;
 }
 .banner-icon{
     width: 40px;
@@ -201,6 +210,9 @@ header .navbar-expand-lg .navbar-nav .nav-link.active, header .navbar-expand-lg 
     background: #FBFBFB;
     border-radius: 40px;
     padding-left: 60px;
+}
+.app-content img{
+    height: 100%;
 }
 .app-title{
     color: #271A3D;
@@ -336,6 +348,7 @@ header .navbar-expand-lg .navbar-nav .nav-link.active, header .navbar-expand-lg 
 }
 .about-page .carousel-item img{
     height: 100%;
+    margin: 0 auto;
 }
 .carousel{
     border-radius: 40px;
@@ -371,6 +384,10 @@ header .navbar-expand-lg .navbar-nav .nav-link.active, header .navbar-expand-lg 
     border: none;
     border-radius: 40px;
     margin-bottom: 30px;
+}
+.accordion-item:first-of-type{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 .faq .accordion-button{
     background: transparent;
@@ -451,6 +468,7 @@ footer form  textarea{
     display: block;
     bottom: 30px;
     right: 30px;
+    color: #968EA4;
 }
 footer .btn-primary{
     margin-top: 30px;
@@ -630,4 +648,323 @@ footer .btn-primary{
 }
 .webinar-actions .btn-outline-primary{
     width: 236px;
+}
+
+/*---- Appointment -----*/
+.appointment{
+    padding: 120px 60px 30px;
+}
+.appointment h1{
+    font-size: 80px;
+    line-height: 84px;
+    color: #271A3D;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.datepicker-inline{
+    width: 100%;
+    padding: 0;
+
+}
+#datepicker{
+
+}
+.datepicker-switch{
+    font-size: 32px;
+    line-height: 32px;
+    color: #271A3D;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+.datepicker .datepicker-switch:hover{
+    background: transparent;
+}
+.datepicker td.day{
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    border: 1.75px solid #EAE7EE;
+    color: #271A3D;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.datepicker th.dow{
+    width: 60px;
+    color: #968EA4;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0;
+}
+.datepicker table{
+    border-spacing: 15px 15px;
+    border-collapse: separate;
+}
+.appointment-block{
+    gap: 30px;
+    display: flex;
+}
+.appointment-left{
+    max-width: 630px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #FBFBFB;
+    border-radius: 40px;
+}
+.appointment-right{
+    max-width: calc(100% - 660px);
+    width: 100%;
+}
+.appointment-photo img{
+    width: 100%;
+
+}
+
+.datepicker .prev, .datepicker .next{
+    padding-bottom: 40px;
+    color: #271A3D;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.datepicker .prev:hover, .datepicker .next:hover{
+    background: transparent;
+}
+.datepicker .today, .datepicker .day.active{
+    background: linear-gradient(132.8deg, #BA86F3 -27.59%, #8F6AF5 124.66%)!important;
+    border: none;
+    color: #fff!important;
+
+}
+.datepicker td.day:hover{
+    background: linear-gradient(132.8deg, #BA86F3 -27.59%, #8F6AF5 124.66%)!important;
+    border: none;
+    color: #fff!important;
+}
+.appointment-title{
+    color: #271A3D;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.appointment-time{
+    padding: 60px;
+    background: #FBFBFB;
+    border-radius: 40px;
+    display: none;
+    height: 100%;
+}
+.time-icon{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    background: url('../images/time.svg') no-repeat;
+}
+.appointment-time-list{
+    gap: 15px;
+}
+.time-item{
+    gap: 15px;
+    border: 1px solid #EAE7EE;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(100%/3 - 30px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.appointment-select{
+    background: linear-gradient(132.8deg, #BA86F3 -27.59%, #8F6AF5 124.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: auto;
+}
+.appointment-form{
+    border-radius: 40px;
+    background: #FBFBFB;
+    padding: 60px 60px 114px;
+    display: none;
+    height: 100%;
+}
+.appointment-form h2{
+    color: #271A3D;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.back{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/back.svg') no-repeat center;
+}
+.appointment-form form{
+    max-width: 685px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px ;
+}
+.appointment-form .form-col{
+    width: calc(100%/2 - 30px);
+}
+.appointment-form .form-control{
+    padding: 30px;
+    border-radius: 20px;
+    color: #968EA4;
+    font-size: 20px;
+    line-height: 28px;
+    border: none;
+    outline: none;
+}
+.appointment-form .form-col:last-child{
+    width: 100%;
+}
+.appointment-form .btn-primary{
+    width: 100%;
+}
+
+/*----- Modal -----*/
+.modal-dialog{
+    max-width: 342px;
+    border-radius: 16px;
+}
+.modal-header{
+    padding: 35px 34px 24px;
+    text-align: center;
+    border-bottom: 0;
+}
+.modal-content{
+    border-radius: 16px;
+}
+.modal-title{
+    text-align: center;
+    color: #271A3D;
+    font-size:24px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.modal-date{
+    background: linear-gradient(132.8deg, rgba(186, 134, 243, 0.1) -27.59%, rgba(143, 106, 245, 0.1) 124.66%);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #271A3D;
+    line-height: 28px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+.modal-date-icon{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    background: url('../images/date.svg') no-repeat center;
+}
+.modal-time{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    background: url('../images/time-modal.svg') no-repeat center;
+}
+.modal-btn{
+    height: auto;
+    font-size: 16px;
+    line-height: 16px;
+    color: #271A3D;
+    font-weight: 400;
+    width: 100%;
+    padding: 0;
+    background: transparent;
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+    text-align: center;
+}
+.modal-btn:hover, .modal-btn:focus, .modal-btn:active{
+    background: transparent;
+    color: #271A3D;
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+
+}
+.modal-backdrop{
+    background: #00000080;
+
+}
+.modal-footer{
+    padding: 16px;
+}
+/*----- map -----*/
+#map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.contact-info{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 2px solid;
+    border-image-source: linear-gradient(256.28deg, #FFFFFF 3.75%, rgba(255, 255, 255, 0) 98.16%);
+    background: #FFFFFF80;
+    padding: 45px;
+    max-width: 486px;
+    width: 100%;
+    border-radius: 30px;
+    backdrop-filter: blur(40px)
+}
+.contact-title{
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #271A3D;
+}
+.contact-info p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #271A3D;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.socials{
+    gap: 20px;
+}
+#placemarkr{
+    width: 92px;
+    height: 45px;
+    color: #271A3D!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400!important;
+    margin-top: 45px;
+    margin-left: -30px;
 }

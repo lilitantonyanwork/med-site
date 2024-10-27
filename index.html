@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Title</title>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=ee9465a5-54a8-4bc2-9658-3f7c60fb94fd" type="text/javascript"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <!--- Start header --->
@@ -22,6 +26,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand d-flex align-items-center" href="#"><img src="images/logo-light.svg" alt="logo">
+
+                    <p class="d-flex flex-column"> <span>Гальченко</span>
+                        Евгения Владимировна
+                    </p>
+
+                </a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Главная</a>
@@ -43,6 +54,7 @@
                     </li>
                 </ul>
                 <a href="tel:+7 3952 65 20 36" class="header-phone d-flex align-items-center justify-content-center text-decoration-none"><img src="images/phone-icon.svg" alt="">+7 3952 65 20 36</a>
+                <a href="" class="btn btn-primary">Записаться</a>
             </div>
         </div>
     </nav>
@@ -63,7 +75,7 @@
                     </p>
                     <a href="#" class="btn btn-primary">Записаться</a>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 d-flex justify-content-end p-0">
                     <img src="images/1.png" alt="banner">
                 </div>
 
@@ -108,7 +120,7 @@
                         <a href="" class="btn btn-outline-primary">Скачать в Google</a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 d-flex align-items-end">
                     <img src="images/app.png" alt="app">
                 </div>
             </div>
@@ -325,7 +337,22 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-8"></div>
+            <div class="col-md-8 position-relative">
+                <div id="map"></div>
+                <div class="contact-info">
+                    <h2 class="contact-title">+7 395 265 20 36</h2>
+                    <p>г. Иркутск, б. Рябикова 32г
+                        ТЦ РУЧЕЙ, в Административном здании
+                        3й этаж, офис 307.</p>
+                    <div class="socials d-flex">
+                        <a href="" class="social-item"><img src="images/whatsapp.svg" alt="whatsapp"></a>
+                        <a href="" class="social-item"><img src="images/instagram.svg" alt="instagram"></a>
+                        <a href="" class="social-item"><img src="images/tg.svg" alt="tg"></a>
+                        <a href="" class="social-item"><img src="images/viber.svg" alt="viber"></a>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
@@ -334,6 +361,7 @@
 
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/jquery-3.7.1.min.js"></script>
+
 <script src="js/main.js"></script>
 </body>
 </html>

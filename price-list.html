@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=ee9465a5-54a8-4bc2-9658-3f7c60fb94fd" type="text/javascript"></script>
+
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <!--- Start header --->
@@ -22,12 +26,19 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand d-flex align-items-center" href="#"><img src="images/logo-light.svg" alt="logo">
+
+                    <p class="d-flex flex-column"> <span>Гальченко</span>
+                        Евгения Владимировна
+                    </p>
+
+                </a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="#">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Обо мне</a>
+                        <a class="nav-link " href="about.html">Обо мне</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="price-list.html">Цены и услуги</a>
@@ -43,6 +54,7 @@
                     </li>
                 </ul>
                 <a href="tel:+7 3952 65 20 36" class="header-phone d-flex align-items-center justify-content-center text-decoration-none"><img src="images/phone-icon.svg" alt="">+7 3952 65 20 36</a>
+                <a href="" class="btn btn-primary">Записаться</a>
             </div>
         </div>
     </nav>
@@ -55,7 +67,7 @@
     <section class="price-list">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 d-flex justify-content-between align-items-center">
+                <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                     <h1>Цены и услуги</h1>
                     <div class="action-btns d-flex align-items-center">
                         <button class="btn btn-primary">Узи</button>
@@ -136,7 +148,22 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-8"></div>
+            <div class="col-md-8">
+                <div id="map"></div>
+                <div class="contact-info">
+                    <h2 class="contact-title">+7 395 265 20 36</h2>
+                    <p>г. Иркутск, б. Рябикова 32г
+                        ТЦ РУЧЕЙ, в Административном здании
+                        3й этаж, офис 307.</p>
+                    <div class="socials d-flex">
+                        <a href="" class="social-item"><img src="images/whatsapp.svg" alt="whatsapp"></a>
+                        <a href="" class="social-item"><img src="images/instagram.svg" alt="instagram"></a>
+                        <a href="" class="social-item"><img src="images/tg.svg" alt="tg"></a>
+                        <a href="" class="social-item"><img src="images/viber.svg" alt="viber"></a>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
